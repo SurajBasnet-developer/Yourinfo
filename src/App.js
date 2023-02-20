@@ -19,7 +19,8 @@ function App() {
             setName(event.target.value);
           }}
           placeholder="Hero Name"
-        />
+        />{" "}
+        <br />
         <label>Age: </label>
         <input
           type="number"
@@ -37,7 +38,8 @@ function App() {
             setHeight(event.target.value);
           }}
           placeholder="hero height"
-        ></input>
+        ></input>{" "}
+        <br></br>
         <label>SuperPower: </label>
         <input
           type="text"
@@ -46,7 +48,8 @@ function App() {
             setSuperpower(event.target.value);
           }}
           placeholder=" power"
-        ></input>
+        ></input>{" "}
+        <br></br>
       </div>
       <button
         onClick={() => {
